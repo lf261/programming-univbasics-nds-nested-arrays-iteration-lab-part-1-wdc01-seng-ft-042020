@@ -10,7 +10,7 @@ while row_index < src.count do
  
   while ele_index < src[row_index].count do 
     
-    if src[row_index][ele_index].even?
+    if (src[row_index][ele_index] % 2 == 0)
      p src[row_index][ele_index]
     end 
     
